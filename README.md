@@ -2,6 +2,7 @@ make server directory
 
 make package.json file in new directory with following: 
 
+```
 {
     "name": "devops-project2",
     "version": "1.0.0",
@@ -15,6 +16,8 @@ make package.json file in new directory with following:
         "express": "^4.17.3"
     }
 }
+
+```
 
 
 run npm install 

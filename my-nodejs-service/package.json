@@ -1,0 +1,13 @@
+{
+    "name": "devops-project2",
+    "version": "1.0.0",
+    "description": "Node express with Docker",
+    "author": "Isac Haglund <isacha@kth.se>",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.17.3"
+    }
+}

@@ -20,12 +20,13 @@ make package.json file in new directory with following:
 ```
 
 
-run npm install 
+run ```npm install``` 
 
-run express install 
+run ```express install``` 
 
 create file called server.js containing: 
 
+```
 "use strict";
 
 const express = require("express");
@@ -42,6 +43,7 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
+```
 
 
-running npm start should print "Running on http://0.0.0.0:8080"
+running npm start should print ```"Running on http://0.0.0.0:8080"```
